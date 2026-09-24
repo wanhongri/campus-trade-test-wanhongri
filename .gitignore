@@ -3,3 +3,9 @@ __pycache__/
 *.log
 .env
 reports/screenshots/*.png
+venv/
+.idea/
+.vscode/
+*.pyc
+.DS_Store
+postman/local.json
