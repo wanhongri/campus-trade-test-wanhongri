@@ -1,0 +1,5 @@
+接口清单（模拟）
+1. POST /api/login     参数: username, password   返回: token
+2. GET  /api/products  参数: (可选) keyword       返回: 商品列表
+3. POST /api/order     参数: productId, quantity  返回: orderId
+4. GET  /api/order/{id} 参数: 无                  返回: 订单详情

@@ -1,0 +1,2 @@
+测试环境地址（模拟）: https://www.baidu.com
+用途: 作为Selenium脚本打开的入口
