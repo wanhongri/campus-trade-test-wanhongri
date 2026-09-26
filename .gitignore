@@ -9,3 +9,8 @@ venv/
 *.pyc
 .DS_Store
 postman/local.json
+
+...
+.DS_Store
+postman/local.json
+xampp/
