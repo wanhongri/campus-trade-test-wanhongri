@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>登录</title></head>
+<body>
+<h2>模拟登录页</h2>
+<form action="/login" method="post">
+  用户名: <input name="username"><br><br>
+  密码: <input name="password" type="password"><br><br>
+  <input type="submit" value="登录">
+</form>
+
+<!-- 这里是核心！用来显示后端返回的提示信息，自动化脚本会抓取这里的文本 -->
+<p id="result_msg" style="color: red; font-weight: bold;">{{ msg }}</p >
+
+</body>
+</html>
